@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'Shadows Into Light', cursive;
+  padding-top: 3.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* ====================== JUMBOTRON =============== */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+/* =============================================== */
+
+/* ====================== HEADER =============== */
+.main-header {
+  background-image: url('../img/wallpaper.jpg');
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+}
+/* =============================================== */
+
+/* ====================== Trucos y Consejos =============== */
+.truco-widget img {
+  height: 300px;
+}
+
+.truco-widget img:hover {
+  height: 300px;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.trucos-aside h2 {
+  color: #a48158;
+}
+
+/* =============================================== */
+
+/* ====================== Evento =============== */
+.evento {
+  margin-bottom: 4rem;
+}
+
+.evento img:hover {
+  transform: rotate(3deg);
+  transition: all 0.5s ease-in-out;
+}
+/* =============================================== */
+
+/* ====================== Contacto =============== */
+.formulario-contacto {
+  background-color: white;
+  padding: 3rem;
+  border-radius: 20px;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .formulario-contacto {
+    margin-top: -10rem;
+  }
+}
+
+.formulario-contacto label {
+  flex: 0 0 4rem;
+}
+
+.formulario-contacto textarea {
+  height: 10rem;
+}
+
+.formulario-contacto .enviar {
+  width: 8rem;
+  text-transform: uppercase;
+  padding: 0.5rem 0;
+  flex: 0 0 100%;
+}
+
+@media (min-width: 768px) {
+  .formulario-contacto .enviar {
+    flex: 0 0 auto;
+  }
+}
+/* =============================================== */
+
+/* ====================== FOOTER =============== */
+.page-footer {
+  text-align: center;
+  background-color: #282828;
+  color: white;
+  padding-top: 60px;
+}
+
+.page-footer h4 {
+  margin-bottom: 45px;
+  text-align: left;
+}
+
+.page-footer h2 {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.page-footer p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+.page-footer .listas {
+  display: flex;
+}
+
+.footer-widget {
+  margin-bottom: 75px;
+}
+
+.footer-widget h2 {
+  margin-bottom: 45px;
+}
+
+.social-icons {
+  padding: 45px 0;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0.5rem;
+  margin: 0 auto;
+}
+
+.footer-list li::before {
+  content: '\2022';
+  color: green;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+#facebook {
+  width: 84px;
+  height: 84px;
+  background: url('../img/sprite-social.jpg') 0px 0px;
+}
+
+#facebook:hover {
+  width: 84px;
+  height: 84px;
+  background: url('../img/sprite-social.jpg') 0px -84px;
+}
+
+#twitter {
+  width: 84px;
+  height: 84px;
+  background: url('../img/sprite-social.jpg') -670px 0px;
+}
+#twitter:hover {
+  width: 84px;
+  height: 84px;
+  background: url('../img/sprite-social.jpg') -670px -84px;
+}
+
+#youtube {
+  width: 84px;
+  height: 84px;
+  background: url('../img/sprite-social.jpg') -840px 0px;
+}
+#youtube:hover {
+  width: 84px;
+  height: 84px;
+  background: url('../img/sprite-social.jpg') -840px -84px;
+}
+/* =============================================== */
+
+/* ====================== Utilidades =============== */
+.text-tiny {
+  font-size: 0.8rem !important;
+}
+
+.text-lh-lg {
+  line-height: 2 !important;
+}
+
+.enlace {
+  text-decoration: none !important;
+  color: black;
+}
+
+.enlace:hover {
+  color: #6e9607;
+}
+/* =============================================== */
